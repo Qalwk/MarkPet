@@ -2,8 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Button } from './components/ui/button'
+import { Button } from '@/components/ui/button'
 import { Calendar } from "@/components/ui/calendar"
+import AreaCharts from '@/components/ui/AreaCharts'
+import BiaxialBarChart from '@/components/ui/BiaxialBarChart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +33,8 @@ function App() {
           onSelect={setDate}
           className="rounded-md border"
         />
+        <AreaCharts/>
+        <BiaxialBarChart/>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
