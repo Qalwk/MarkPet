@@ -7,7 +7,7 @@ import {
   CartesianGrid,
   Tooltip
 } from "recharts";
-import data from '../../data/MarkData';
+import data from '@data/MockData';
 
 const AreaCharts = () => {
   return (

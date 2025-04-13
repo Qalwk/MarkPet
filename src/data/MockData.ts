@@ -1,4 +1,4 @@
-const data = [
+const mockData = [
   {
     name: "Page A",
     uv: 4000,
@@ -43,4 +43,4 @@ const data = [
   }
 ];
 
-export default data;
+export default mockData;
